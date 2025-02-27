@@ -1,8 +1,8 @@
-{
-  "scripts": {
-    "start": "node dist/app.js",
-    "build": "tsc",
-    "dev": "ts-node src/app.js",
-    "postinstall": "tsc"
+  "dependencies": {
+    ...existing dependencies...,
+    "typescript": "^5.3.3",
+    "@types/node": "^20.11.19",
+    "@types/express": "^4.17.21",
+    "@types/cors": "^2.8.17",
+    "ts-node": "^10.9.2"
   }
-}
